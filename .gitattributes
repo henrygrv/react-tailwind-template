@@ -1,0 +1,6 @@
+# remove tailwind generated css from language counting
+src/assets/main.css linguist-vendored
+
+# remove tailwind and postcss config file from language counting
+tailwind.js linguist-vendored
+postcss.config.js linguist-vendored
